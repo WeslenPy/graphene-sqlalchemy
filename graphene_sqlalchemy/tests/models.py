@@ -19,10 +19,11 @@ from sqlalchemy import (
     func,
 )
 from sqlalchemy.ext.associationproxy import association_proxy
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.ext.hybrid import hybrid_property
 from sqlalchemy.orm import backref, column_property, composite, mapper, relationship
 from sqlalchemy.sql.type_api import TypeEngine
+
+from sqlalchemy.orm import declarative_base
 
 from graphene_sqlalchemy.tests.utils import wrap_select_func
 from graphene_sqlalchemy.utils import (

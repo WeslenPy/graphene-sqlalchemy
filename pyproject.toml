@@ -1,0 +1,36 @@
+[project]
+name = "graphene-sqlalchemy"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "weslenpy",email = "weslenjhony@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4"
+dependencies = [
+    "graphene (>=3.4.3,<4.0.0)",
+    "sqlalchemy (>=2.0.41,<3.0.0)",
+    "aiodataloader (>=0.4.2,<0.5.0)",
+    "promise (>=2.3,<3.0)",
+    "packaging (>=25.0,<26.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+pytest-asyncio = "^1.0.0"
+pytest-cov = "^6.2.1"
+sqlalchemy-utils = "^0.41.2"
+pytest-benchmark = "^5.1.0"
+aiosqlite = "^0.21.0"
+nest-asyncio = "^1.6.0"
+greenlet = "^3.2.3"
+flake8 = "^7.3.0"
+tox = "^4.27.0"
+pre-commit = "^4.2.0"
+
+
