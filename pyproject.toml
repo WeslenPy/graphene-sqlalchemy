@@ -1,6 +1,6 @@
 [project]
 name = "graphene-sqlalchemy"
-version = "0.1.0"
+version = "2.3.0"
 description = ""
 authors = [
     {name = "weslenpy",email = "weslenjhony@gmail.com"}
